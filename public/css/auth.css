@@ -1,0 +1,220 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	margin: 0;
+	color: #172033;
+	font-family: "Segoe UI", Arial, sans-serif;
+	background: #101827 url("../images/background-login.jpg") center / cover fixed no-repeat;
+}
+
+body::before {
+	position: fixed;
+	inset: 0;
+	background: linear-gradient(135deg, rgba(10, 18, 32, .78), rgba(15, 23, 42, .48));
+	content: "";
+}
+
+.auth-page {
+	position: relative;
+	display: flex;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+	padding: 32px 18px;
+}
+
+.auth-card {
+	width: min(100%, 420px);
+	padding: 38px;
+	border: 1px solid rgba(255, 255, 255, .7);
+	border-radius: 18px;
+	background: rgba(255, 255, 255, .97);
+	box-shadow: 0 24px 70px rgba(0, 0, 0, .28);
+}
+
+.auth-brand {
+	margin-bottom: 28px;
+	text-align: center;
+}
+
+.brand-mark {
+	display: grid;
+	width: 52px;
+	height: 52px;
+	margin: 0 auto 16px;
+	place-items: center;
+	border-radius: 15px;
+	background: #2563eb;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.eyebrow {
+	margin: 0 0 7px;
+	color: #2563eb;
+	font-size: 11px;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+}
+
+.auth-brand h1 {
+	margin: 0;
+	font-size: 27px;
+	letter-spacing: -.5px;
+}
+
+.auth-description {
+	margin: 9px 0 0;
+	color: #697386;
+	font-size: 14px;
+}
+
+.login-instruction {
+	color: #dc2626;
+	font-weight: 600;
+}
+
+.auth-card form {
+	display: flex;
+	flex-direction: column;
+}
+
+.auth-card label {
+	margin: 0 0 8px;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.auth-card input,
+.auth-card select,
+.auth-card textarea {
+	width: 100%;
+	margin-bottom: 18px;
+	padding: 12px 13px;
+	border: 1px solid #d8deea;
+	border-radius: 8px;
+	outline: none;
+	background: #fff;
+	color: #172033;
+	font: inherit;
+	font-size: 14px;
+	transition: border-color .2s, box-shadow .2s;
+}
+
+.auth-card input,
+.auth-card select {
+	height: 46px;
+}
+
+.auth-card textarea {
+	min-height: 82px;
+	resize: vertical;
+}
+
+.auth-card input:focus,
+.auth-card select:focus,
+.auth-card textarea:focus {
+	border-color: #2563eb;
+	box-shadow: 0 0 0 3px rgba(37, 99, 235, .13);
+}
+
+.auth-button {
+	min-height: 47px;
+	margin-top: 3px;
+	border: 0;
+	border-radius: 8px;
+	background: #2563eb;
+	color: #fff;
+	cursor: pointer;
+	font: inherit;
+	font-size: 15px;
+	font-weight: 700;
+	transition: background .2s, transform .2s;
+}
+
+.auth-button:hover {
+	transform: translateY(-1px);
+	background: #1d4ed8;
+}
+
+.auth-footer {
+	margin: 24px 0 0;
+	color: #697386;
+	font-size: 13px;
+	text-align: center;
+}
+
+.auth-footer a {
+	color: #2563eb;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.auth-footer a:hover {
+	text-decoration: underline;
+}
+
+.form-message {
+	margin: 0 0 20px;
+	padding: 12px 14px;
+	border-radius: 8px;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+.form-message-error {
+	border: 1px solid #fecaca;
+	background: #fef2f2;
+	color: #b91c1c;
+}
+
+.form-message-success {
+	border: 1px solid #bbf7d0;
+	background: #f0fdf4;
+	color: #15803d;
+}
+
+body.login-page {
+	background: #292a22 url("../images/catering-login.jpg") center / cover fixed no-repeat;
+}
+
+body.login-page::before {
+	background: linear-gradient(135deg, rgba(32, 34, 27, .82), rgba(62, 53, 42, .56));
+}
+
+.login-page .brand-mark {
+	background: #626b4e;
+}
+
+.login-page .login-instruction {
+	color: #75644d;
+}
+
+.login-page .auth-card input:focus,
+.login-page .auth-card select:focus,
+.login-page .auth-card textarea:focus {
+	border-color: #858c69;
+	box-shadow: 0 0 0 3px rgba(98, 107, 78, .14);
+}
+
+.login-page .auth-button {
+	background: #626b4e;
+}
+
+.login-page .auth-button:hover {
+	background: #4c563b;
+}
+
+.login-page .auth-footer a {
+	color: #626b4e;
+}
+
+@media (max-width: 480px) {
+	.auth-card {
+		padding: 30px 24px;
+	}
+}

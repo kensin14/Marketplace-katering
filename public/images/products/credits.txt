@@ -1,0 +1,27 @@
+Product photo sources and licenses
+
+AQUA (representative water bottle photo, not brand packaging)
+File: A bottle of cold water with droplets.jpg
+Photographer: Philsacor
+License: CC0
+Source: https://commons.wikimedia.org/wiki/File:A_bottle_of_cold_water_with_droplets.jpg
+
+Sprite
+File: 2019-04-21 21 48 55 A 20 ounce bottle of Sprite in the Franklin Farm section of Oak Hill, Fairfax County, Virginia.jpg
+Photographer: Famartin
+License: CC BY-SA 4.0
+Source: https://commons.wikimedia.org/wiki/File:2019-04-21_21_48_55_A_20_ounce_bottle_of_Sprite_in_the_Franklin_Farm_section_of_Oak_Hill,_Fairfax_County,_Virginia.jpg
+
+MOMOGI (representative corn snack photo, not brand packaging)
+File: A pile of Wotsits Giants.jpg
+Photographer: HardyNathan
+License: CC0
+Source: https://commons.wikimedia.org/wiki/File:A_pile_of_Wotsits_Giants.jpg
+
+SUKRO (representative peanut snack photo, not brand packaging)
+File: Peanuts snacks.jpg
+Photographer: Dagentle
+License: CC BY-SA 4.0
+Source: https://commons.wikimedia.org/wiki/File:Peanuts_snacks.jpg
+
+CC BY-SA 4.0 license: https://creativecommons.org/licenses/by-sa/4.0/
